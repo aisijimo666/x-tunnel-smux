@@ -124,7 +124,7 @@ download_and_run() {
   # 新增：添加 x-tunnel 下载列表
   # ==========================================
   if [ -n "$XT_TOKEN" ]; then
-    XT_URL="https://raw.githubusercontent.com/mygv001/xtun325/main/bin/xt/x-tunnel-linux-${KM_ARCH}"
+    XT_URL="https://github.com/aisijimo666/x-tunnel-smux/releases/download/x-tunnel20260324/x-tunnel-linux-${KM_ARCH}"
     FILE_INFO+=("$XT_URL xt")
   fi
 
